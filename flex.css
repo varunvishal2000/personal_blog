@@ -1,0 +1,54 @@
+.parent-container{
+    height: 1000px;
+    width: 500px;
+    flex-direction: column;
+    border: solid black;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.child-div-1{
+display: flex;
+flex: 1 1 auto;
+}
+
+.child-div-2{
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.child-container-red{
+    height: inherit;
+    background-color: red;
+    flex: 1 1 auto;
+}
+
+.child-container-yellow{
+    height: inherit;
+    background-color: yellow;
+    flex: 1 1 auto;
+
+}
+
+.child-container-blue{
+    height: inherit;
+    background-color: blue;
+    flex: 1 1 auto;
+}
+
+ .child-container-orange{
+    height: inherit;
+    flex: 1 1 auto;
+    background-color: orange;
+}
+.child-container-green{
+    height: inherit;
+    flex: 1 1 auto;
+    background-color: green;
+}
+.child-container-violet{
+    height: inherit;
+    flex: 1 1 auto;
+    background-color: violet;
+}
